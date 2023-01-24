@@ -14,8 +14,8 @@
 }
 
 .box {
-  width: 200px;
-  height: 125px;
+  width: 260px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
