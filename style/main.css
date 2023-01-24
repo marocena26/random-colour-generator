@@ -1,3 +1,56 @@
+:root {
+  --primary-color: white;
+  --text-font-family: "Roboto", sans-serif;
+}
+
+.body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--text-font-family);
+}
+
+.box {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid;
+  gap: 35px;
+}
+
+.h1 {
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.button {
+  width: 55%;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid;
+  background-color: white;
+  box-shadow: 5px 5px rgba(136, 134, 134, 0.5);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .hidden {
   display: none;
 }

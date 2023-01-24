@@ -4,6 +4,7 @@
 const button = document.querySelector(".js-button");
 const background = document.querySelector(".js-background");
 const message = document.querySelector(".hidden");
+const color = document.querySelector(".color");
 
 //VARIABLES
 //Variable to generate random colour
@@ -22,6 +23,8 @@ const handleColor = (ev) => {
   background.style.background = result;
   message.classList.remove("hidden");
   message.innerHTML = `The selected colour has been the: ${result}`;
+  color.innerHTML = `${result}`;
+  color.style.color = result;
   button.style.color = result;
   button.style.borderColor = result;
 };
