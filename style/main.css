@@ -14,28 +14,44 @@
 }
 
 .box {
-  width: 400px;
-  height: 150px;
+  width: 200px;
+  height: 125px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--primary-color);
-  padding: 30px;
+  padding: 15px;
   border-radius: 20px;
   border: 2px solid;
-  gap: 35px;
+  gap: 15px;
+}
+
+@media all and (min-width: 768px) {
+  .box {
+    width: 400px;
+    height: 150px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid;
+    gap: 35px;
+  }
 }
 
 .h1 {
   text-transform: capitalize;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 16px;
+}
+
+@media all and (min-width: 768px) {
+  .h1 {
+    font-size: 25px;
+  }
 }
 
 .button {
-  width: 55%;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   padding: 10px;
   border-radius: 20px;
@@ -46,9 +62,24 @@
   text-transform: uppercase;
 }
 
+@media all and (min-width: 768px) {
+  .button {
+    width: 55%;
+    font-size: 16px;
+  }
+}
+
 .text {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .text {
+    font-size: 16px;
+    font-weight: 600;
+  }
 }
 
 .hidden {
