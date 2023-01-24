@@ -40,7 +40,7 @@ The following tools have been used when solving the project:
 
 ## ✅ Final result
 <div id="header" align="center">
-<img width="358" alt="image" src="https://user-images.githubusercontent.com/113302094/214377855-a68a5a98-ebce-4cf6-8c2b-2e2e8aff44f5.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/113302094/214377855-a68a5a98-ebce-4cf6-8c2b-2e2e8aff44f5.png">
 </div>
 
 ## ✨ Feedback 
