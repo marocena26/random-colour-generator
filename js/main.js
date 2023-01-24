@@ -22,7 +22,6 @@ const handleColor = (ev) => {
   const result = setBg();
   background.style.background = result;
   message.classList.remove("hidden");
-  message.innerHTML = `The selected colour has been the: ${result}`;
   color.innerHTML = `${result}`;
   color.style.color = result;
   button.style.color = result;
