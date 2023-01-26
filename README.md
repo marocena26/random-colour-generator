@@ -9,6 +9,18 @@ Create a web page with a **simple button** that **generates a random colour** wh
 
 > **NOTE:** Direct link to the project by clicking on the following **[link](https://marocena26.github.io/random-colour-generator/)**.
 
+## 👾 Description 
+
+**Welcome to Random colour generator!**
+
+In this repository we present you a **simple, intuitive website adapted to any kind of device** (mobile, tablet and PC) so you can take a look at it at any time. **Designed and developed with HTML, CSS and JS**, with each click the background will change to a completely random colour.
+
+### How to play
+
+- Just click to generate a random background 😉.
+
+⚠️ **Caution**: it is advisable not to hit it too quickly so that the colour changes do not damage the eyes.
+
 ## 📝 Requirements
 
 The exercise consists on developing a web-site using the following **elements**:
